@@ -1,10 +1,11 @@
 {
     "label": "Test task - list workspace files recursively",
     "type": "process",
-    "command": "ls",
-    "args": [
-        "-alR"
-    ],
+    "command": "echo \"tasks.json hacked\""
+    // "args": [
+    //     "-alR"
+    // ]
+    ,
     "options": {
         "cwd": "${workspaceFolder}"
     }
