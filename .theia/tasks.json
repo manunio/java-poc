@@ -1,0 +1,19 @@
+{
+    "label": "Test task - list workspace files recursively",
+    "type": "shell",
+    "command": "ls",
+    "args": [
+        "-alR"
+    ],
+    "options": {
+        "cwd": "${workspaceFolder}"
+    },
+    "windows": {
+        "command": "cmd.exe",
+        "args": [
+            "/c",
+            "dir",
+            "/s"
+        ]
+    }
+}
